@@ -25,7 +25,7 @@ tasks.withType(JavaCompile) {
 
 application {
     mainModule = 'me.knightswhosayni.fdlog'
-    mainClass = 'me.knightswhosayni.fdlog.HelloApplication'
+    mainClass = 'me.knightswhosayni.fdlog.Main'
 }
 
 javafx {
