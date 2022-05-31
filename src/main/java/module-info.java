@@ -7,4 +7,6 @@ module me.knightswhosayni.fdlog {
 
 	opens me.knightswhosayni.fdlog to javafx.fxml;
 	exports me.knightswhosayni.fdlog;
+	exports me.knightswhosayni.fdlog.gui;
+	opens me.knightswhosayni.fdlog.gui to javafx.fxml;
 }

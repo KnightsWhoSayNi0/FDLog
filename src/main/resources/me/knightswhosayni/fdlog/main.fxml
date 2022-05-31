@@ -23,7 +23,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="me.knightswhosayni.fdlog.gui.MainController">
    <children>
       <MenuBar layoutY="1.0" prefHeight="25.0" prefWidth="1200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
         <menus>
@@ -361,7 +361,7 @@
                         <Font size="20.0" />
                      </font>
                   </Label>
-                  <Button fx:id="bandButton" mnemonicParsing="false" text="band" GridPane.columnIndex="3">
+                  <Button fx:id="bandButton" mnemonicParsing="false" onAction="#bandButton" text="band" GridPane.columnIndex="3">
                      <font>
                         <Font size="20.0" />
                      </font>
@@ -374,22 +374,22 @@
                         <Font size="20.0" />
                      </font>
                   </Label>
-                  <Button fx:id="modeButton" mnemonicParsing="false" text="mode" GridPane.columnIndex="5">
+                  <Button fx:id="modeButton" mnemonicParsing="false" onAction="#modeButton" text="mode" GridPane.columnIndex="5">
                      <font>
                         <Font size="20.0" />
                      </font>
                   </Button>
-                  <Button fx:id="callButton" mnemonicParsing="false" text="call" GridPane.columnIndex="7" GridPane.halignment="CENTER">
+                  <Button fx:id="callButton" mnemonicParsing="false" onAction="#callButton" text="call" GridPane.columnIndex="7" GridPane.halignment="CENTER">
                      <font>
                         <Font size="20.0" />
                      </font>
                   </Button>
-                  <Button fx:id="classButton" mnemonicParsing="false" text="class" GridPane.columnIndex="8" GridPane.halignment="CENTER">
+                  <Button fx:id="classButton" mnemonicParsing="false" onAction="#classButton" text="class" GridPane.columnIndex="8" GridPane.halignment="CENTER">
                      <font>
                         <Font size="20.0" />
                      </font>
                   </Button>
-                  <Button fx:id="sectionButton" mnemonicParsing="false" text="section" GridPane.columnIndex="9" GridPane.halignment="CENTER">
+                  <Button fx:id="sectionButton" mnemonicParsing="false" onAction="#sectionButton" text="section" GridPane.columnIndex="9" GridPane.halignment="CENTER">
                      <font>
                         <Font size="20.0" />
                      </font>
