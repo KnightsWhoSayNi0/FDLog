@@ -1,0 +1,10 @@
+[versions]
+controlsfx = "11.1.1"
+javafx = "12.3.0"
+junit = "5.8.2"
+
+[libraries]
+controlsfx = { module = "org.controlsfx:controlsfx", version.ref = "controlsfx" }
+javafx = { module = "org.kordamp.ikonli:ikonli-javafx", version.ref = "javafx" }
+junitapi = { module = "org.junit.jupiter:junit-jupiter-api", version.ref = "junit" }
+junitengine = { module = "org.junit.jupiter:junit-jupiter-engine", version.ref = "junit" }
